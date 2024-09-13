@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assests/css/test.css">
     <title>Veregien Media</title>
 </head>
@@ -14,36 +15,66 @@
 
     <!-- Navbar -->
 
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="assests/images/navbar/logo.png" alt="Vm-logo"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+    <nav class="navbar nav-align navbar-expand-lg navbar-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="assests/images/navbar/logo.png" alt="Vm-logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                <div class="collapse navbar-collapse px-3 " id="navbarNav">
-                    <ul class="navbar-nav mx-auto gap-lg-5">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Case Studies</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">How It Works</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Hire</a>
-                        </li>
-                    </ul>
-                    <button class="button">Contact us</button>
+            <div class="collapse navbar-collapse px-3 " id="navbarNav">
+                <ul class="navbar-nav mx-auto gap-lg-5">
+                    <li class="nav-item">
+                        <a class="nav-link a-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-link" href="#">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-link" href="#">How It Works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link a-link" href="#">Hire</a>
+                    </li>
+                </ul>
+                <button class="mt-2 mt-md-0 button">Contact us</button>
+            </div>
+        </div>
+    </nav>
+
+
+     <!-- Hero -->
+     <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <div class="mt-5 hero-heading">
+                        <p>Great <span class="software">Software</span> is</p>
+                        <p><span class="built">built by great</span> <span class="teams">teams</span></p>
+                    </div><br>
+                    <div>
+                        <p>We help build and manage a team of world-class developers <br>
+                            to bring your vision to life</p>
+                    </div><br><br>
+                    <div>
+                        <button class="hero-btn">Let’s get started!</button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <img src="assests/images/Hero/hero.png" class="img-fluid" alt="hero">
+                    </div>
                 </div>
             </div>
-        </nav>
+            <!-- <div class="hero-round">
+                <img src="assests/images/Hero/round.png" alt="">
+            </div> -->
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
