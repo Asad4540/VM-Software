@@ -317,7 +317,7 @@
     }
 
     .button {
-        background:#57007B;
+        background: #57007B;
         color: #fff;
         border-radius: 5px;
         padding: 8px 20px;
@@ -356,6 +356,19 @@
     .hero-round-img {
         width: 60%;
     }
+
+    /* Services  */
+
+    .services {
+        background: #F9F9FF;
+        padding-top: 20px;
+    }
+
+    .serv-heading {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
 }
 
 @media (min-width: 768px) {
